@@ -2,7 +2,7 @@ import QuarterItem from "@/components/QuarterItem";
 
 const QuarterItems = () => {
   return (
-    <div className="flex py-6 px-8 flex-wrap">
+    <div className="flex py-6 mb-10 px-6 flex-wrap">
       <QuarterItem
         heading={"Quarter 1"}
         desc={

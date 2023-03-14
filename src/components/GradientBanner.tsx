@@ -2,7 +2,7 @@ import React from "react";
 
 const TopBanner = () => {
   return (
-    <div className="flex flex-col items-center px-10  py-20 md:py-24 m-10 rounded-3xl text-white bg-gradient-to-r from-[#222222] to-[#455666]">
+    <div className="flex flex-col items-center px-10  py-20 md:py-24 m-10 rounded-3xl text-white bg-gradient-to-r from-[#222222] to-[#455666] order-first md:order-none">
       <h1 className="text-3xl md:text-3xl text-center font-bold">
         Certified Web 3.0 and Metaverse Developer
       </h1>

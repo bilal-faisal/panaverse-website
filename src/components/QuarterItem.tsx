@@ -9,7 +9,7 @@ interface Quarter {
 const Quarter = ({ heading, desc }: Quarter) => {
   return (
     <div className="basis-full sm:basis-1/2 md:basis-1/4">
-      <div className="bg-white shadow-xl flex flex-col items-center p-5 rounded-xl m-5 md:my-0 md:mx-5 ">
+      <div className="bg-white shadow-xl flex flex-col items-center rounded-xl p-5 m-4 md:my-0 md:mx-4 ">
         <Image src={code} alt="Logo" className="my-1" />
         <h2 className="text-xl font-semibold my-2">{heading}</h2>
         <p className="text-center my-1">{desc}</p>
