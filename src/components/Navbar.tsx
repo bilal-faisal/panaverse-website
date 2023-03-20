@@ -7,17 +7,17 @@ export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <nav className="w-full bg-gray-800 shadow">
-      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
-        <div className="flex items-center justify-between py-3 md:py-5 md:block">
+      <div className="justify-between px-6 md:items-center md:flex">
+        <div className="flex items-center justify-between py-3 md:py-5">
           <Link href="/" className="flex items-center">
             <Image
               src="/logo.png"
               width={40}
               height={40}
               alt="Logo"
-              className="mx-3"
+              className="mr-3"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowra text-white">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
               Panaverse
             </span>
           </Link>
@@ -70,13 +70,10 @@ export default function Navbar() {
                 <Link href="/">Home</Link>
               </li>
               <li className="text-white">
-                <Link href="/blogs">Blogs</Link>
+                <Link href="/about_us">About Us</Link>
               </li>
               <li className="text-white">
-                <Link href="/about">About US</Link>
-              </li>
-              <li className="text-white">
-                <Link href="/contact_us">Contact US</Link>
+                <Link href="/contact_us">Contact Us</Link>
               </li>
             </ul>
           </div>

@@ -2,6 +2,8 @@ import QuoteBanner from "@/components/QuoteBanner";
 import QuarterItems from "@/components/QuarterItems";
 import GradientBanner from "@/components/GradientBanner";
 import ExtraBanner from "@/components/extraBanner";
+import Heading from "@/components/Heading";
+import TeamMembers from "@/components/TeamMembers";
 
 const Home = () => {
   return (
@@ -9,9 +11,10 @@ const Home = () => {
       <QuoteBanner />
       <GradientBanner />
       <ExtraBanner />
-      <h1 className="text-4xl text-center font-medium pt-5 pb-2 text-[#1F2937]">Course Outline</h1>
+      <Heading name={"Instructors"} />
+      <TeamMembers/>
+      <Heading name={"Course Outline"} />
       <QuarterItems />
-
     </div>
   );
 };
