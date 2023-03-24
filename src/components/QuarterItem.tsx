@@ -14,7 +14,7 @@ const Quarter = ({ heading, desc }: Quarter) => {
         <h2 className="text-xl font-semibold my-2">{heading}</h2>
         <p className="text-center my-1">{desc}</p>
 
-        <button className="px-3 py-1 my-3 md:mt-6 rounded-md text-white bg-[#1F2937] w-fit text-lg">
+        <button className="px-2 py-0.5 my-3 md:mt-6 rounded-md text-white bg-[#1F2937] w-fit text-lg border-2 border-[#1F2937] hover:border-2 hover:border-[#1F2937] hover:bg-slate-50 hover:text-black">
           Read More
         </button>
       </div>

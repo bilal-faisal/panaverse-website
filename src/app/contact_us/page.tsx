@@ -2,9 +2,10 @@ const page = () => {
   return (
     <div className="flex justify-center m-10">
       <form className="w-full max-w-xl">
-        <h1 className="text-3xl text-center font-medium mt-2 mb-10 pb-2 text-[#1F2937]">Send us your concern</h1>
+        <h1 className="text-3xl text-center font-medium mt-2 mb-10 pb-2 text-[#1F2937]">
+          Send us your concern
+        </h1>
         <div className="flex flex-wrap mb-3">
-      
           <div className="w-full md:w-1/2 px-3 mb-3 md:mb-0">
             <label
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
@@ -74,10 +75,14 @@ const page = () => {
 
         <div className="flex flex-wrap mb-6">
           <div className="w-full px-3">
-            <button
+            {/* <button
               className="self-end bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-md border-4 text-white py-1 px-3 rounded"
               type="button"
             >
+              Send
+            </button> */}
+
+            <button className="self-end text-lg py-1 px-4 rounded-md text-white bg-[#1F2937] w-fit border-2 border-[#1F2937] hover:border-2 hover:border-[#1F2937] hover:bg-slate-50 hover:text-black">
               Send
             </button>
           </div>

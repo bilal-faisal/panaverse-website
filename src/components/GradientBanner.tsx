@@ -13,7 +13,7 @@ const TopBanner = () => {
         Getting Ready for the Next Generation and Future of the Internet - Join
         a 13 Trillion Dollar Industry with 5 Billion Users
       </h2>
-      <button className="px-5 py-2 mt-6 md:mt-10 rounded-md bg-white text-black shadow w-fit text-xl">
+      <button className="px-5 py-2 mt-6 md:mt-10 rounded-md border-2 border-white bg-white text-black shadow w-fit text-xl hover:border-2 hover:border-white hover:bg-gray-700 hover:text-white">
         Details
       </button>
     </div>
