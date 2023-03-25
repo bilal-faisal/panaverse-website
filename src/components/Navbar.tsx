@@ -70,10 +70,10 @@ export default function Navbar() {
                 <Link href="/">Home</Link>
               </li>
               <li className="text-white">
-                <Link href="/about_us">About Us</Link>
+                <Link href="/about">About Us</Link>
               </li>
               <li className="text-white">
-                <Link href="/contact_us">Contact Us</Link>
+                <Link href="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>

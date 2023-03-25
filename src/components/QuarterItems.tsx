@@ -6,25 +6,25 @@ const QuarterItems = () => {
       <QuarterItem
         heading={"Quarter 1"}
         desc={
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, atque!"
+          "JavaScript, Web3.0 Theory, Object-Oriented Programming using TypeScript"
         }
       />
       <QuarterItem
         heading={"Quarter 2"}
         desc={
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, atque!"
+          "Developing Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13"
         }
       />
       <QuarterItem
         heading={"Quarter 3"}
         desc={
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, atque!"
+          "Blocchain Theory, Developing Smart Contracts and Planet-Scale Web 3.0 Dapps"
         }
       />
       <QuarterItem
         heading={"Quarter 4"}
         desc={
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, atque!"
+          "Developing Planet-Scale Open Virtual and Augmented Metaverse Experiences"
         }
       />
     </div>
