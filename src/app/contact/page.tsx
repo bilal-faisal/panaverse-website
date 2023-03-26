@@ -1,7 +1,57 @@
+"use client";
+
+import { useEffect, useState } from "react";
+
 const page = () => {
+  function validateForm(e: any) {
+    e.preventDefault();
+    if (name == "" || email == "" || subject == "" || message == "") {
+      alert("Incomplete Form");
+      return false;
+    } else {
+      submitForm(e);
+    }
+  }
+
+  function submitForm(e: any) {
+    e.preventDefault();
+    let data = { name, email, subject, message };
+    console.log(data);
+    // fetch("http://localhost:3000/api/getInfo", {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSON.stringify(data),
+    // });
+
+    setname("");
+    setemail("");
+    setsubject("");
+    setmessage("");
+
+    alert("Your data has been sent.");
+  }
+  function handleChange(e: any) {
+    if (e.target.name == "name") {
+      setname(e.target.value);
+    } else if (e.target.name == "email") {
+      setemail(e.target.value);
+    } else if (e.target.name == "subject") {
+      setsubject(e.target.value);
+    } else if (e.target.name == "message") {
+      setmessage(e.target.value);
+    }
+  }
+
+  const [name, setname] = useState("");
+  const [email, setemail] = useState("");
+  const [message, setmessage] = useState("");
+  const [subject, setsubject] = useState("");
+
   return (
     <div className="flex justify-center m-10">
-      <form className="w-full max-w-xl">
+      <form className="w-full max-w-xl" method="POST" onSubmit={validateForm}>
         <h1 className="text-3xl text-center font-medium mt-2 mb-10 pb-2 text-[#1F2937]">
           Send us your concern
         </h1>
@@ -18,12 +68,32 @@ const page = () => {
               id="grid-first-name"
               type="text"
               placeholder="Jane"
+              name="name"
+              value={name}
+              onChange={handleChange}
             />
             {/* <p className="text-red-500 text-xs italic hidden">
               Please fill out this field.
             </p> */}
           </div>
           <div className="w-full md:w-1/2 px-3 mb-4 md:mb-0">
+            <label
+              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              htmlFor="grid-email"
+            >
+              Email
+            </label>
+            <input
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              id="grid-email"
+              type="email"
+              placeholder="email"
+              onChange={handleChange}
+              name="email"
+              value={email}
+            />
+          </div>
+          {/* <div className="w-full md:w-1/2 px-3 mb-4 md:mb-0">
             <label
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
               htmlFor="grid-last-name"
@@ -36,7 +106,7 @@ const page = () => {
               type="text"
               placeholder="Doe"
             />
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-wrap mb-6">
           <div className="w-full px-3">
@@ -51,6 +121,9 @@ const page = () => {
               id="subject"
               type="text"
               placeholder="Subject..."
+              onChange={handleChange}
+              name="subject"
+              value={subject}
             />
           </div>
         </div>
@@ -64,11 +137,13 @@ const page = () => {
             </label>
             <textarea
               className="w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-              name="textArea"
               id="textArea"
               placeholder="Type here..."
               cols={30}
               rows={10}
+              value={message}
+              name="message"
+              onChange={handleChange}
             ></textarea>
           </div>
         </div>
@@ -82,9 +157,15 @@ const page = () => {
               Send
             </button> */}
 
-            <button className="self-end text-lg py-1 px-4 rounded-md text-white bg-[#1F2937] w-fit border-2 border-[#1F2937] hover:border-2 hover:border-[#1F2937] hover:bg-slate-50 hover:text-black">
+            {/* <button className="self-end text-lg py-1 px-4 rounded-md text-white bg-[#1F2937] w-fit border-2 border-[#1F2937] hover:border-2 hover:border-[#1F2937] hover:bg-slate-50 hover:text-black">
               Send
-            </button>
+            </button> */}
+            <input
+              type="submit"
+              id="submit"
+              name="Send"
+              className="self-end text-lg py-1 px-4 rounded-md text-white bg-[#1F2937] w-fit border-2 border-[#1F2937] hover:border-2 hover:border-[#1F2937] hover:bg-slate-50 hover:text-black"
+            />
           </div>
         </div>
       </form>
