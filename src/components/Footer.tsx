@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -20,13 +21,14 @@ const Footer = () => {
         </div>
         <div className="space-y-1.5">
           <h2 className="font-bold pb-2 text-lg text-white">Contact Us</h2>
-          <p>panaverse.co</p>
+          <p><Link href={"https://www.panaverse.co/"} target="_blank">panaverse.co</Link></p>
+          
         </div>
         <div className="space-y-1.5">
           <h2 className="font-bold pb-2 text-lg text-white">Social</h2>
-          <p>Twitter</p>
-          <p>Youtube</p>
-          <p>Facebook</p>
+          <p><Link href={"https://twitter.com/Panaverse_edu"} target="_blank">Twitter</Link></p>
+          <p><Link href={"https://www.youtube.com/@panaverse"} target="_blank">Youtube</Link></p>
+          <p><Link href={"https://www.facebook.com/panaverse.dao"} target="_blank">Facebook</Link></p>
         </div>
       </div>
     </div>

@@ -1,9 +1,7 @@
-import type { NextApiRequest, NextApiResponse } from "next";
 import * as fs from "fs";
 
 export async function GET(req: Request) {
   return new Response("{ message: 'Get request' }");
-  // res.status(200).json({ message: "Get request" });
 }
 export async function POST(req: Request) {
   let data = await fs.promises.readdir("./contactData/");

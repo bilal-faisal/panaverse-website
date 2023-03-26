@@ -4,7 +4,7 @@ import Karachi from "../../public/karachi.webp";
 import Lahore from "../../public/lahore.webp";
 import Peshawar from "../../public/peshawar.webp";
 
-const ExtraBanner = () => {
+const LocationsBanner = () => {
   return (
     <div className="flex flex-wrap">
       <div className="flex flex-col justify-center w-full md:w-1/2 px-8 py-10">
@@ -37,4 +37,4 @@ const ExtraBanner = () => {
   );
 };
 
-export default ExtraBanner;
+export default LocationsBanner;

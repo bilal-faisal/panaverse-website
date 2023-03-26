@@ -8,10 +8,10 @@ const Banner = () => {
       <div className="flex flex-col items-center justify-center w-full md:w-1/2 px-8 pt-2 md:pt-8 pb-10">
         <Image src={Quote} alt="Quote" className="self-start" />
         <h1 className="text-2xl font-light italic text-justify">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"The Future of the Web is Web 3.0, Metaverse, and Edge Computing.
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;The Future of the Web is Web 3.0, Metaverse, and Edge Computing.
           Panaverse DAO is a movement to spread these technolgies globally. It
           is community of Web 3.0 and Metaverse developers, designers, trainers,
-          startup founders and service providers."
+          startup founders and service providers.&quot;
         </h1>
         <p className="self-end text-3xl font-light px-4 py-2">~ Zia Khan</p>
       </div>

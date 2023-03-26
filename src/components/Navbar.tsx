@@ -67,13 +67,13 @@ export default function Navbar() {
           >
             <ul className="items-center justify-center space-y-6 md:flex md:space-x-10 md:space-y-0">
               <li className="text-white">
-                <Link href="/">Home</Link>
+                <Link href={"/"}>Home</Link>
               </li>
               <li className="text-white">
-                <Link href="/about">About Us</Link>
+                <Link href={"/about"}>About Us</Link>
               </li>
               <li className="text-white">
-                <Link href="/contact">Contact Us</Link>
+                <Link href={"/contact"}>Contact Us</Link>
               </li>
             </ul>
           </div>

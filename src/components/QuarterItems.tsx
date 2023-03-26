@@ -1,5 +1,4 @@
 import QuarterItem from "@/components/QuarterItem";
-import { url } from "inspector";
 
 const QuarterItems = () => {
   return (

@@ -20,7 +20,7 @@ const page = () => {
         At Panaverse DAO, we are committed to promoting sustainability and
         ethical practices in the digital art space. We believe that the NFT
         market has enormous potential, but it must be built on a foundation of
-        environmental responsibility and fair compensation for artists. That's
+        environmental responsibility and fair compensation for artists. That&apos;s
         why we use renewable energy to power our platform, and we promote
         eco-friendly practices across our community. Our platform is designed to
         be community-driven, with members able to participate in governance
@@ -53,7 +53,7 @@ const page = () => {
       <p className="w-full md:w-2/3 px-6 text-xl leading-8 indent-12">
         In this brand-new type of curriculum, students will learn how to make
         money and boost exports in the classroom and will begin doing so within
-        six months of the program's beginning. It resembles a cross between a
+        six months of the program&apos;s beginning. It resembles a cross between a
         corporate venture and an educational project.
       </p>
     </div>
