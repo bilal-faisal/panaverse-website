@@ -20,7 +20,7 @@ const QuarterItems = () => {
       <QuarterItem
         heading={"Quarter 3"}
         desc={
-          "Blocchain Theory, Developing Smart Contracts and Planet-Scale Web 3.0 Dapps"
+          "Blockchain Theory, Developing Smart Contracts and Planet-Scale Web 3.0 Dapps"
         }
         url="about"
       />

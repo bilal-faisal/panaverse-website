@@ -14,17 +14,11 @@ const Contact = () => {
     }
   }
 
-  function submitForm(e: any) {
+  async function submitForm(e: any) {
     e.preventDefault();
-    let data = { name, email, subject, message };
-    console.log(data);
-    // fetch("http://localhost:3000/api/getInfo", {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify(data),
-    // });
+    let data_obj = { name, email, subject, message };
+
+    // Will find a way to send mail later
 
     setname("");
     setemail("");

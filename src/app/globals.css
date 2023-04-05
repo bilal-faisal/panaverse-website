@@ -1,10 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 @layer components {
   .quote {
-    /* @apply m-3 p-6 bg-[brown]/50 rounded-xl */
     @apply m-3 p-6 bg-[#1da1f2] rounded-xl
   }
 
@@ -15,4 +14,4 @@
   .quote span {
     @apply text-sm text-gray-500
   }
-}
+} */
