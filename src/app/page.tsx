@@ -1,5 +1,5 @@
 import QuoteBanner from "@/components/QuoteBanner";
-import QuarterItems from "@/components/QuarterItems";
+import QuarterItems from "@/components/QuarterItemsHome";
 import GradientBanner from "@/components/GradientBanner";
 import Heading from "@/components/Heading";
 import TeamMembers from "@/components/TeamMembers";
