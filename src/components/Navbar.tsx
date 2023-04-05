@@ -70,6 +70,9 @@ export default function Navbar() {
                 <Link href={"/"}>Home</Link>
               </li>
               <li className="text-white">
+                <Link href={"/syllabus"}>Syllabus</Link>
+              </li>
+              <li className="text-white">
                 <Link href={"/about"}>About Us</Link>
               </li>
               <li className="text-white">

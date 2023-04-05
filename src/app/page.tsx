@@ -10,11 +10,13 @@ const Home = () => {
     <div className="flex flex-col">
       <QuoteBanner />
       <GradientBanner />
-      <ExtraBanner/>
+      <ExtraBanner />
       <Heading name={"Instructors"} />
-      <TeamMembers/>
+      <TeamMembers />
       <Heading name={"Course Outline"} />
-      <QuarterItems />
+      <div className="px-8">
+        <QuarterItems />
+      </div>
     </div>
   );
 };

@@ -78,35 +78,6 @@ const page = () => {
           weekdays. It employs a hybrid teaching format, with core onsite
           classes complemented by online Zoom laboratories and recorded videos.
         </p>
-
-        <h2 className="px-6 text-xl leading-7 font-semibold mt-5 mb-1 text-[#1F2937]">
-          Core Courses (Common in All Specializations):
-        </h2>
-        <p className="px-6 text-lg leading-7">
-          Every participant of the program will start by completing the
-          following three core courses:
-        </p>
-
-        <h2 className="ml-10 px-6 text-lg leading-7 font-medium mt-5 mb-1 text-[#1F2937]">
-          <span className="text-xl font-semibold">Quarter I (Core)</span>
-          <br />
-          CS-101: Object-Oriented Programming using TypeScript
-          <br />
-          <br />
-          <span className="text-xl font-semibold">Quarter II (Core)</span>
-          <br />
-          W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps
-          and APIs using Next.js 13 and Cloud Development Kit (CDK) for
-          Terraform
-          <br />
-          <br />
-          <span className="text-xl font-semibold">Quarter III (Core)</span>
-          <br />
-          $-101: Dollar Making Bootcamp - Full-Stack Template and API Product
-          Development
-          <br />
-          <br />
-        </h2>
       </div>
     </div>
   );

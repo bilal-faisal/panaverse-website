@@ -2,11 +2,11 @@ import QuarterItem from "@/components/QuarterItem";
 
 const QuarterItems = () => {
   return (
-    <div className="flex py-6 mb-10 px-6 flex-wrap">
+    <div className="flex py-6 mb-10 flex-wrap">
       <QuarterItem
         heading={"Quarter 1"}
         desc={
-          "JavaScript, Web3.0 Theory, Object-Oriented Programming using TypeScript"
+          "Developing Web 1.0 Apps using JavaScript, OOP using TypeScript"
         }
         url="about"
       />
