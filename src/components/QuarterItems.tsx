@@ -1,26 +1,29 @@
 import QuarterItem from "@/components/QuarterItem";
 
-const QuarterItems = () => {
+const QuarterItems = ({ redirectTo }: { redirectTo: String }) => {
   return (
-    <div className="flex py-6 mb-5 flex-wrap">
+    <div className="flex p-5 md:px-0 mb-10 flex-wrap">
       <QuarterItem
         heading={"Quarter 1"}
-        desc={"Developing Web 1.0 Apps using JavaScript, OOP using TypeScript"}
+        desc={"Developing Web 1.0 Applications using JavaScript, OOP using TypeScript"}
         type="Core"
+        href={redirectTo}
       />
       <QuarterItem
         heading={"Quarter 2"}
         desc={
-          "Developing Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13"
+          "Developing Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js13"
         }
         type="Core"
+        href={redirectTo}
       />
       <QuarterItem
         heading={"Quarter 3"}
         desc={
-          "Blockchain Theory, Developing Smart Contracts and Planet-Scale Web 3.0 Dapps"
+          "Dollar Making Bootcamp, Full-Stack Template and API Product Development"
         }
-        type="Selective"
+        type="Core"
+        href={redirectTo}
       />
       <QuarterItem
         heading={"Quarter 4"}
@@ -28,6 +31,7 @@ const QuarterItems = () => {
           "Developing Planet-Scale Open Virtual and Augmented Metaverse Experiences"
         }
         type="Selective"
+        href={redirectTo}
       />
     </div>
   );

@@ -1,5 +1,5 @@
 import QuoteBanner from "@/components/QuoteBanner";
-import QuarterItems from "@/components/QuarterItemsHome";
+import QuarterItems from "@/components/QuarterItems";
 import GradientBanner from "@/components/GradientBanner";
 import Heading from "@/components/Heading";
 import TeamMembers from "@/components/TeamMembers";
@@ -15,7 +15,7 @@ const Home = () => {
       <TeamMembers />
       <Heading name={"Course Outline"} />
       <div className="px-8">
-        <QuarterItems />
+        <QuarterItems redirectTo="syllabus"/>
       </div>
     </div>
   );
