@@ -6,7 +6,7 @@ interface Team {
 }
 const TeamMember = ({ name, img, desc }: Team) => {
   return (
-    <div className=" flex flex-col items-center text-center px-6">
+    <div className=" flex flex-col items-center text-center px-6 py-6">
       <Image
         src={`/${img}.jpg`}
         alt="zia_khan"

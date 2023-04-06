@@ -2,7 +2,7 @@ import TeamMember from "./TeamMember";
 
 const TeamMembers = () => {
   return (
-    <div className="w-auto max-w-none m-14 flex justify-around flex-wrap">
+    <div className="w-auto max-w-none my-5 mx-10 flex justify-around flex-wrap">
       <TeamMember name={"Zia Khan"} img={"zia_khan"} desc={"Founder & CEO"} />
       <TeamMember
         name={"Daniyal nagori"}
